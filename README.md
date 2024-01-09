@@ -2,22 +2,22 @@
 
 ## Installation
 
-'''bash
+```bash
 git clone git@github.com:mohpezeshki/base64.git
-'''
+```
 
 ## Run
 
 ### Decode
-'''bash
+```bash
 python base64.py encode "PLAIN\_TEXT"
-'''
+```
 
 ### Decode
 
-'''bash
+```bash
 python base64.py decode "CIPTHER\_TEXT"
-'''
+```
 
 ## License
 
