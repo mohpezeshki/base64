@@ -1,5 +1,10 @@
 # Implementing Base64 with python
 
+## Description
+
+### What is base64 algorithm?
+[refrence: ](https://en.wikipedia.org/wiki/Base64)
+
 ## Installation
 
 ```bash
