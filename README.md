@@ -1,4 +1,4 @@
-# Implementing Base64 with python
+# Base64 implementation with python
 
 ## Description
 
