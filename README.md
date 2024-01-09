@@ -8,15 +8,15 @@ git clone git@github.com:mohpezeshki/base64.git
 
 ## Run
 
-### Decode
+### Encode
 ```bash
-python base64.py encode "PLAIN\_TEXT"
+python base64.py encode "PLAIN_TEXT"
 ```
 
 ### Decode
 
 ```bash
-python base64.py decode "CIPTHER\_TEXT"
+python base64.py decode "CIPTHER_TEXT"
 ```
 
 ## License
