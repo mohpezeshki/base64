@@ -14,10 +14,15 @@ git clone git@github.com:mohpezeshki/base64.git
 ## Run
 
 ### Encode
+#### String
 ```bash
 python base64.py encode "PLAIN_TEXT"
 ```
 
+#### File
+```bash
+python base64.py encode file "FILE_PATH"
+```
 ### Decode
 
 ```bash
