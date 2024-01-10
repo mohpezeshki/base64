@@ -63,15 +63,15 @@ if __name__ == "__main__":
         print("Insert the text!")
     else:
         _typ = "string"
-        if len(sys.argv) == 4 and sys.argv[2] == "file":
+        if len(sys.argv) == 4 and sys.argv[2] == "-file":
             _typ = "file"
             bit_string = get_file_bits(sys.argv[3])
-        if sys.argv[1] == "encode":
+        if sys.argv[1] == "-encode":
             if _typ == "string": 
                 base64_txt = encode_base64(get_string_bits(sys.argv[2]))
             else:
                 base64_txt = encode_base64(bit_string)
-        elif(sys.argv[1]) == "decode":
+        elif(sys.argv[1]) == "-decode":
             base64_txt = decode_base64(sys.argv[2])
         
         print(base64_txt)

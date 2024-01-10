@@ -16,17 +16,17 @@ git clone git@github.com:mohpezeshki/base64.git
 ### Encode
 #### String
 ```bash
-python base64.py encode "PLAIN_TEXT"
+python base64.py -encode "PLAIN_TEXT"
 ```
 
 #### File
 ```bash
-python base64.py encode file "FILE_PATH"
+python base64.py -encode -file "FILE_PATH"
 ```
 ### Decode
 
 ```bash
-python base64.py decode "CIPTHER_TEXT"
+python base64.py -decode "CIPTHER_TEXT"
 ```
 
 ## License
